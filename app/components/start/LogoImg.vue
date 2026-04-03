@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<div class="flex items-center justify-center flex-col">
-			<img src="/assets/logo-principal.png" alt="" class="max-w-64 mt-9">
+			<img src="/assets/logo-principal.png" alt="" class="max-w-64">
 		</div>
 		<div class="-mt-5">
 			<h1 class="text-[#FFB800] text-6xl font-Boldonse font-bold">
