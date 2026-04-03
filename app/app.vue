@@ -1,10 +1,13 @@
-<template>
-	<NuxtPage />
+<script setup>
+const { cargarUsuario } = useAuth()
 
-</template>
-
-<script>
-
+onMounted(() => {
+  cargarUsuario()
+})
 </script>
 
-<style></style>
+<template>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
+</template>
